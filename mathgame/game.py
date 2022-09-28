@@ -5,3 +5,5 @@ answer = value[0] + value[1]
 p_answer = input(str(value[0]) + "+" + str(value[1]) + "=")
 if answer == int(p_answer):
     print ("正解！")
+else:
+    print ("不正解!残念!")
