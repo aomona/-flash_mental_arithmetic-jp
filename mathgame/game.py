@@ -58,3 +58,4 @@ if int(difficulty) == 1 or int(difficulty) == 2 or int(difficulty) == 3:
         print ("お疲れ様でした！")
         print ("このゲームはまもなく終了します")
         sleep(3)
+        
