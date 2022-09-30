@@ -23,7 +23,7 @@ if int(difficulty) == 1 or int(difficulty) == 2 or int(difficulty) == 3:
     sleep(1)
     print ("2")
     sleep(1)
-    print (1)
+    print ("1")
     sleep(1)
     print ("スタート！！")
     for i in range(int(number_of_times) - 1):
