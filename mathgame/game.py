@@ -1,3 +1,5 @@
+from ast import Import
+import sys
 import random
 from time import sleep
 print ("難易度を選択してください")
@@ -12,7 +14,7 @@ elif int(difficulty) == 2:
 elif int(difficulty) == 3:
     digits = 999
     print ("難易度が「難しい」に設定されました")
-else:
+else:   
     print ("難易度の取得に失敗しました、正しい数値を入力してもう一度お試しください")
     print ("このゲームはまもなく終了します")
     sleep(3)
@@ -23,7 +25,7 @@ if int(difficulty) == 1 or int(difficulty) == 2 or int(difficulty) == 3:
     sleep(1)
     print ("2")
     sleep(1)
-    print (1)
+    print ("1")
     sleep(1)
     print ("スタート！！")
     for i in range(int(number_of_times) - 1):
@@ -57,5 +59,5 @@ if int(difficulty) == 1 or int(difficulty) == 2 or int(difficulty) == 3:
                 print ("不正解!")
         print ("お疲れ様でした！")
         print ("このゲームはまもなく終了します")
-        sleep(3)
+        exit()
         
