@@ -59,5 +59,5 @@ if int(difficulty) == 1 or int(difficulty) == 2 or int(difficulty) == 3:
                 print ("不正解!")
         print ("お疲れ様でした！")
         print ("このゲームはまもなく終了します")
-        exit()
+        sleep(3)
         
