@@ -29,7 +29,7 @@ if int(difficulty) == 1 or int(difficulty) == 2 or int(difficulty) == 3:
     sleep(1)
     print ("スタート！！")
     for i in range(int(number_of_times) - 1):
-        value = [random.randint(1,digits),random.randint(1,digits)]
+        value = [random.randint(-1 * digits,digits),random.randint(1,digits)]
         answer = value[0] + value[1]
         p_answer = input(str(value[0]) + "+" + str(value[1]) + "=")
         if answer == int(p_answer):
@@ -45,7 +45,7 @@ if int(difficulty) == 1 or int(difficulty) == 2 or int(difficulty) == 3:
                 print ("不正解!")
                 print ("次へ！")
     else:
-        value = [random.randint(1,digits),random.randint(1,digits)]
+        value = [random.randint(-1 * digits,digits),random.randint(1,digits)]
         answer = value[0] + value[1]
         p_answer = input(str(value[0]) + "+" + str(value[1]) + "=")
         if answer == int(p_answer):
